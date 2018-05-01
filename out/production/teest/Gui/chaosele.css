@@ -1,0 +1,21 @@
+.button:hover{
+    -fx-opacity: 0.5;
+}
+
+#backgroundpane{
+    -fx-background-image: url('/images/BOSSES/CHAOSELE/chaoselebackground.png');
+    -fx-background-size: cover;
+}
+
+#monstericonpane{
+    -fx-background-image: url('/images/BOSSES/CHAOSELE/chaoseleicon.png');
+    -fx-background-size: cover;
+}
+#statspane{
+    -fx-background-image: url('/images/BOSSES/CHAOSELE/chaoselestats.png');
+    -fx-background-size: cover;
+}
+
+.label{
+    -fx-text-fill: purple;
+}

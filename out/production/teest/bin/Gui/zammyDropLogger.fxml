@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gui.ZammyDropLoggerController">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: silver;" BorderPane.alignment="CENTER">
+         <children>
+            <Pane layoutX="50.0" layoutY="209.0" prefHeight="266.0" prefWidth="391.0" style="-fx-background-color: grey;">
+               <effect>
+                  <DropShadow height="64.0" radius="31.870000000000005" spread="0.88" width="65.48" />
+               </effect>
+            </Pane>
+            <Pane layoutX="25.0" layoutY="36.0" prefHeight="160.0" prefWidth="334.0" style="-fx-background-color: grey;">
+               <effect>
+                  <DropShadow height="66.96" radius="34.0925" spread="0.87" width="71.41">
+                     <input>
+                        <InnerShadow choke="1.0" height="255.0" radius="127.0" width="255.0" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Pane>
+            <GridPane layoutX="52.0" layoutY="211.0" prefHeight="264.0" prefWidth="389.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="RuneScimButton" mnemonicParsing="false" onAction="#RuneScimButtonPushed" prefHeight="71.0" prefWidth="77.0" style="-fx-background-color: grey;">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </Button>
+                  <Button fx:id="dragonDaggerButton" mnemonicParsing="false" onAction="#dragonDaggerButtonPressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="runeSwordButton" mnemonicParsing="false" onAction="#runeSwordButtonPressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="runePlatelegButton" mnemonicParsing="false" onAction="#runePlatelegButtonPressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="adamantPlatebodyButton" mnemonicParsing="false" onAction="#adamantPlatebodyButtonPressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="adamantArrowsButton" mnemonicParsing="false" onAction="#adamantArrowsButton" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="puresetbutton" mnemonicParsing="false" onAction="#puresetbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="zammybrewbutton" mnemonicParsing="false" onAction="#zammybrewbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="deathrunebutton" mnemonicParsing="false" onAction="#deathrunebuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="BloodRuneButton" mnemonicParsing="false" onAction="#BloodRuneButtonPressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="grimylantadymeButton" mnemonicParsing="false" onAction="#grimylantadymeButtonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="lantadymeseedsbutton" mnemonicParsing="false" onAction="#lantadymeseedsbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="coinsButton" mnemonicParsing="false" onAction="#coinsButtonPressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="raredropbutton" mnemonicParsing="false" onAction="#raredropbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="steambattlestaffbutton" mnemonicParsing="false" onAction="#steambattlestaffbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="zamorakspearbutton" mnemonicParsing="false" onAction="#zamorakspearbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="sotdbutton" mnemonicParsing="false" onAction="#sotdbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="gsshardbutton" mnemonicParsing="false" onAction="#gsshardbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="zamorakhiltbutton" mnemonicParsing="false" onAction="#zamorakhiltbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="zamorakpetbutton" mnemonicParsing="false" onAction="#zamorakpetbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="youtubeGuideButton" mnemonicParsing="false" onAction="#youtubeGuideButtonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="twitchbutton" mnemonicParsing="false" onAction="#twitchbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="wikiguidebutton" mnemonicParsing="false" onAction="#wikiguidebuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="playlistbutton" mnemonicParsing="false" onAction="#playlistbuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="elitecluebutton" mnemonicParsing="false" onAction="#elitecluebuttonpressed" prefHeight="81.0" prefWidth="88.0" style="-fx-background-color: grey;" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+            </GridPane>
+            <Pane layoutX="529.0" layoutY="19.0" prefHeight="460.0" prefWidth="252.0" style="-fx-background-color: black;">
+               <effect>
+                  <DropShadow height="115.14" radius="55.0325" spread="0.41" width="106.99">
+                     <input>
+                        <InnerShadow choke="0.38" color="WHITE" height="130.47" radius="63.25" width="124.53" />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Pane>
+            <ImageView disable="true" fitHeight="500.0" fitWidth="800.0" opacity="0.78" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/krilldrops/newbackground.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="moneylastdroplabel" layoutX="191.0" layoutY="37.0" prefHeight="45.0" prefWidth="310.0" text="0" textFill="#eeff00">
+               <font>
+                  <Font name="Bodoni MT" size="32.0" />
+               </font></Label>
+            <Label fx:id="totalmoneylabel" layoutX="191.0" layoutY="93.0" prefHeight="47.0" prefWidth="374.0" text="0" textFill="#eeff00">
+               <font>
+                  <Font name="Bodoni MT" size="32.0" />
+               </font></Label>
+            <Label fx:id="zammykclabel" layoutX="191.0" layoutY="151.0" prefHeight="39.0" prefWidth="269.0" text="0" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT" size="32.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="45.0" fitWidth="54.0" layoutX="25.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/coins.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="54.0" layoutX="27.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/coins.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="84.0" layoutY="41.0" prefHeight="39.0" prefWidth="86.0" text="Last:" textFill="#eeff00">
+               <font>
+                  <Font name="Bodoni MT" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="97.0" prefHeight="39.0" prefWidth="107.0" text="Total:" textFill="#eeff00">
+               <font>
+                  <Font name="Bodoni MT" size="32.0" />
+               </font>
+            </Label>
+            <Label layoutX="84.0" layoutY="151.0" text="KC:" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT" size="32.0" />
+               </font>
+            </Label>
+            <Button fx:id="gobacktozammydpsbutton" layoutX="448.0" layoutY="450.0" mnemonicParsing="false" onAction="#gotozammydps" text="Go back" />
+            <ImageView fitHeight="40.0" fitWidth="51.0" layoutX="26.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/krill.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="petimage" fitHeight="177.0" fitWidth="238.0" layoutX="333.0" layoutY="27.0" opacity="0.2" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/krill.png" />
+               </image>
+            </ImageView>
+            <GridPane layoutX="540.0" layoutY="20.0" prefHeight="462.0" prefWidth="230.0">
+              <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="116.0" minWidth="10.0" prefWidth="71.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="98.0" minWidth="10.0" prefWidth="57.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="109.0" minWidth="10.0" prefWidth="48.0" />
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="84.0" minWidth="10.0" prefWidth="67.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView fx:id="runescimimage" fitHeight="40.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+                     <image>
+                        <Image url="@../images/krilldrops/runescim.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="ddpimage" fitHeight="31.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@../images/krilldrops/ddp.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="runeswordimage" fitHeight="33.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <image>
+                        <Image url="@../images/krilldrops/rsword.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="runelegsimage" fitHeight="27.0" fitWidth="17.0" pickOnBounds="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <image>
+                        <Image url="@../images/krilldrops/rlegs.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="adamantplateimage" fitHeight="33.0" fitWidth="37.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <image>
+                        <Image url="@../images/krilldrops/addyplate.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="herbimage" fitHeight="36.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <image>
+                        <Image url="@../images/krilldrops/herb.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="seedimage" fitHeight="36.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <image>
+                        <Image url="@../images/krilldrops/seeds.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="cashimage" fitHeight="28.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <image>
+                        <Image url="@../images/krilldrops/cash.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="raredropimage" fitHeight="37.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="8">
+                     <image>
+                        <Image url="@../images/krilldrops/raredrop.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="clueimage" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="9">
+                     <image>
+                        <Image url="@../images/krilldrops/clue.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="arrowimage" fitHeight="40.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3">
+                     <image>
+                        <Image url="@../images/krilldrops/arrows.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="puresetimage" fitHeight="40.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@../images/krilldrops/superset.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="zbrewsandrestimage" fitHeight="40.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <image>
+                        <Image url="@../images/krilldrops/restandzbrews.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="deathruneimage" fitHeight="31.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <image>
+                        <Image url="@../images/krilldrops/deathrunes.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="bloodruneimage" fitHeight="33.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <image>
+                        <Image url="@../images/krilldrops/bloodrune.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="spearimage" fitHeight="40.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <image>
+                        <Image url="@../images/krilldrops/spear.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="sotdimage" fitHeight="40.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <image>
+                        <Image url="@../images/krilldrops/sotd.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="steambstaffimage" fitHeight="40.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                     <image>
+                        <Image url="@../images/krilldrops/sbstaff.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="zhiltimage" fitHeight="40.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                     <image>
+                        <Image url="@../images/krilldrops/zammyhilt.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="gsshardimage" fitHeight="40.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="9">
+                     <image>
+                        <Image url="@../images/krilldrops/gsshard.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="runescimcountlabel" text="0" textFill="RED">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="ddpcountlabel" text="0" textFill="RED" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="runeswordcountlabel" text="0" textFill="RED" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="runelegcountlabel" text="0" textFill="RED" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="arrowcountlabel" text="0" textFill="RED" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="puresetcountlabel" text="0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="brewsandrestscountlabel" text="0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="deathrunecountlabel" text="0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bloodcountlabel" text="0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="addyplatecountlabel" text="0" textFill="RED" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="spearcountlabel" text="0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="herbcountlabel" text="0" textFill="RED" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="seedcountlabel" text="0" textFill="RED" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="cashcountlabel" text="0" textFill="RED" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="raredropcountlabel" text="0" textFill="RED" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="cluecountlabel" text="0" textFill="RED" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="sotdcountlabel" text="0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="steambstaffcountlabel" text="0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="zhiltcountlabel" text="0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gsshardcountlabel" text="0" textFill="RED" GridPane.columnIndex="2" GridPane.rowIndex="9">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+         </children>
+         <effect>
+            <InnerShadow choke="0.4" height="223.87" radius="98.46000000000001" width="171.97" />
+         </effect>
+      </Pane>
+   </center>
+</BorderPane>

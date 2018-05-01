@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gui.shieldslotwindowcontroller">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: grey;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/shieldslot.png" />
+               </image>
+               <effect>
+                  <Glow>
+                     <input>
+                        <InnerShadow choke="0.1" height="89.2" radius="42.6175" width="83.27" />
+                     </input>
+                  </Glow>
+               </effect>
+            </ImageView>
+            <Button fx:id="ddefbutton" layoutX="14.0" layoutY="31.0" mnemonicParsing="false" onAction="#ddef" prefHeight="65.0" prefWidth="72.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="dfsbutton" layoutX="115.0" layoutY="30.0" mnemonicParsing="false" onAction="#dfs" prefHeight="67.0" prefWidth="71.0" style="-fx-background-color: transparent;" />
+            <ImageView disable="true" fitHeight="67.0" fitWidth="71.0" layoutX="15.0" layoutY="31.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/weaponslot/dragondefender.png" />
+               </image>
+            </ImageView>
+            <ImageView disable="true" fitHeight="67.0" fitWidth="71.0" layoutX="115.0" layoutY="31.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/weaponslot/dfs.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <InnerShadow choke="0.06" height="59.55" radius="32.239999999999995" width="71.41" />
+         </effect>
+      </Pane>
+   </center>
+</BorderPane>

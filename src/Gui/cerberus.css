@@ -1,0 +1,22 @@
+.button:hover{
+    -fx-opacity: 0.5;
+}
+
+#backgroundpane{
+    -fx-background-image: url('/images/BOSSES/CERBERUS/cerberusbackground.png');
+    -fx-background-size: cover;
+}
+
+#monstericonpane{
+    -fx-background-image: url('/images/BOSSES/CERBERUS/cerberusicon.png');
+    -fx-background-size: cover;
+}
+#statspane{
+    -fx-background-image: url('/images/BOSSES/CERBERUS/cerberusstats.png');
+    -fx-background-size: 97%;
+    -fx-background-repeat: no-repeat;
+}
+
+.label{
+    -fx-text-fill: DarkOrange ;
+}

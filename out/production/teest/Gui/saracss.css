@@ -1,0 +1,22 @@
+.button:hover{
+    -fx-opacity: 0.5;
+}
+
+#backgroundpane{
+    -fx-background-image: url('/images/BOSSES/SARADOMIN/saradominbackground.png');
+    -fx-background-size: cover;
+}
+
+#monstericonpane{
+    -fx-background-image: url('/images/BOSSES/SARADOMIN/saradominicon.png');
+    -fx-background-size: 70%;
+    -fx-background-repeat: no-repeat;
+}
+#statspane{
+    -fx-background-image: url('/images/BOSSES/SARADOMIN/saradominstats.png');
+    -fx-background-size: cover;
+}
+
+.label{
+    -fx-text-fill: cyan;
+}

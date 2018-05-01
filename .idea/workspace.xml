@@ -1,0 +1,1268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="teest:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MainLoader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Gui/MainLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="method#start#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showHomePage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#returntohomepage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showDPSPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showZammyPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showKreePage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showBandosPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showSaraPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showCalistoPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showCerberusPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showChaoselePage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showCorpPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showkbdPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showKqPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showKrakenPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showMolePage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showthermyPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showVenePage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showZulrahPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showVorkyPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#showZammyDropLoggerPage#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#openweaponslotview#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#openshieldslotview#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#openammyslotview#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#openbodyslotwindow#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#openlegsslotwindow#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#openbootslotwindow#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#openringslotwindow#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#openglovesslotwindow#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#openhelmslotwindow#0;class#MainLoader#0" expanded="false" />
+                <element signature="method#opencapeslotwindow#0;class#MainLoader#0" expanded="false" />
+                <element signature="e#17408#17409#0" expanded="true" />
+                <element signature="e#17427#17428#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPSView.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gui/DPSView.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="59" column="24" lean-forward="false" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thermy.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gui/thermy.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bandoscss.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gui/bandoscss.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="overview.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gui/overview.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zammycss.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gui/zammycss.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mole.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gui/mole.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPSMainCalc.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gui/DPSMainCalc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#openweaponslot#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#openhelmslot#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#opencapeslot#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#openammyslot#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#openbodyslot#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#legsslot#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#openglovesslot#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#bootslot#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#ringslot#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#openshieldslot#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#resetattackstyleLabelsandimages#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#resetprayerbonusLabelandimages#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#resetdefaultvaluesprayerbonus#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#resetdefaultvalueStyleBonus#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#resetpotionviews#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#gobacktodpspage#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#gotozammydroplogger#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#setstylebonustoaccurate#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#setstylebonustoagro#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#setstylebonustocontrol#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#setstylebonustodefensive#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#pietyprayerbonus#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#rigourprayerbonus#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#auguryprayerbonus#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#rangepot#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#superattack#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#superstr#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#stabstyle#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#slashstyle#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#rangedstyle#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#magestyle#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#crushstyle#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateEffectiveStrength#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateBaseDamage#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateMaxHit#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateEffectiveAttackLevel#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateMaxAttackStabRol#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateMaxAttackSlashRol#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateMaxAttackCrushRol#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateEffectiveDefenceLevel#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateMaxDefenceStabRol#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateMaxDefenceSlashRol#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateMaxDefenceCrushRol#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateAccuracy#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateDPS#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculateDPT#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calcdps#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#getTextfieldvalues#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#updateAttackBonusLabels#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calcBonusTotals#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#updatedpsLabels#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#updateOpacityGear#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#calculatedps#0;class#DPSMainCalc#0" expanded="false" />
+                <element signature="method#updatingdps#0;class#DPSMainCalc#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPSPageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gui/DPSPageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DPSPage.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Gui/DPSPage.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>textfield</find>
+      <find>strleveltf</find>
+      <find>atkleveltf</find>
+      <find>whip</find>
+      <find>(</find>
+      <find>)</find>
+      <find>'</find>
+      <find />
+      <find>atk</find>
+      <find>str</find>
+      <find>;</find>
+      <find>{</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Gui/weaponslotwindow.fxml" />
+        <option value="$PROJECT_DIR$/src/Gui/testclass.java" />
+        <option value="$PROJECT_DIR$/src/Gui/shieldslotwindowcontroller.java" />
+        <option value="$PROJECT_DIR$/src/Gui/ringslotwindow.fxml" />
+        <option value="$PROJECT_DIR$/src/Gui/ringslotwindowcontroller.java" />
+        <option value="$PROJECT_DIR$/src/Gui/bodyslotwindow.fxml" />
+        <option value="$PROJECT_DIR$/src/Gui/legsslotwindow.fxml" />
+        <option value="$PROJECT_DIR$/src/Gui/legsslotwindowcontroller.java" />
+        <option value="$PROJECT_DIR$/src/Gui/bodyslotwindowcontroller.java" />
+        <option value="$PROJECT_DIR$/src/Gui/ammyslotwindow.fxml" />
+        <option value="$PROJECT_DIR$/src/Gui/bootslotwindow.fxml" />
+        <option value="$PROJECT_DIR$/src/Gui/bootslotwindowcontroller.java" />
+        <option value="$PROJECT_DIR$/src/Gui/ammyslotwindowController.java" />
+        <option value="$PROJECT_DIR$/src/Gui/gloveslotwindow.fxml" />
+        <option value="$PROJECT_DIR$/src/Gui/glovesslotwindowcontroller.java" />
+        <option value="$PROJECT_DIR$/src/Gui/helmslotwindow.fxml" />
+        <option value="$PROJECT_DIR$/src/Gui/helmslotwindowController.java" />
+        <option value="$PROJECT_DIR$/src/Gui/capeslotwindow.java" />
+        <option value="$PROJECT_DIR$/src/Gui/capeslotwindow.fxml" />
+        <option value="$PROJECT_DIR$/src/Gui/calculations.java" />
+        <option value="$PROJECT_DIR$/src/Gui/DPSController.java" />
+        <option value="$PROJECT_DIR$/src/Gui/zammyDPSController.java" />
+        <option value="$PROJECT_DIR$/src/Gui/dpsoverviewcss.css" />
+        <option value="$PROJECT_DIR$/src/Gui/bandosDPS.fxml" />
+        <option value="$PROJECT_DIR$/src/Gui/DPSMainCalc.java" />
+        <option value="$PROJECT_DIR$/src/Gui/weaponslotcss.css" />
+        <option value="$PROJECT_DIR$/src/Gui/weaponslotwindow.java" />
+        <option value="$PROJECT_DIR$/src/Gui/calistocss.css" />
+        <option value="$PROJECT_DIR$/src/Gui/kbd.ts" />
+        <option value="$PROJECT_DIR$/src/Gui/saracss.css" />
+        <option value="$PROJECT_DIR$/src/Gui/chaosele.css" />
+        <option value="$PROJECT_DIR$/src/Gui/cerberus.css" />
+        <option value="$PROJECT_DIR$/src/Gui/kbd.css" />
+        <option value="$PROJECT_DIR$/src/Gui/thermy.css" />
+        <option value="$PROJECT_DIR$/src/Gui/mole.css" />
+        <option value="$PROJECT_DIR$/src/Gui/DPSPageController.java" />
+        <option value="$PROJECT_DIR$/src/Gui/bandoscss.css" />
+        <option value="$PROJECT_DIR$/src/Gui/MainLoader.java" />
+        <option value="$PROJECT_DIR$/src/Gui/overview.css" />
+        <option value="$PROJECT_DIR$/src/Gui/zammycss.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="72" />
+    <option name="y" value="349" />
+    <option name="width" value="759" />
+    <option name="height" value="660" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dpscalc_dennis_vanmalder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpscalc_dennis_vanmalder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpscalc_dennis_vanmalder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpscalc_dennis_vanmalder" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpscalc_dennis_vanmalder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpscalc_dennis_vanmalder" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpscalc_dennis_vanmalder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpscalc_dennis_vanmalder" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="teest_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dpscalc_dennis_vanmalder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpscalc_dennis_vanmalder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Gui" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dennis\Desktop\teest\src\Gui" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainLoader">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+    </configuration>
+    <configuration name="DPSMainCalc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Gui.DPSMainCalc" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Gui.DPSMainCalc" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="teest" />
+      <envs />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="teest" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="MainLoader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Gui.DPSMainCalc" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Gui.MainLoader" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="teest" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="calculations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Gui.DPSMainCalc" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Gui.calculations" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="teest" />
+      <envs />
+    </configuration>
+    <configuration name="weaponslotwindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Gui.DPSMainCalc" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Gui.weaponslotwindow" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="teest" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.MainLoader" />
+      <item index="2" class="java.lang.String" itemvalue="Application.DPSMainCalc" />
+      <item index="3" class="java.lang.String" itemvalue="Application.weaponslotwindow" />
+      <item index="4" class="java.lang.String" itemvalue="Application.calculations" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.MainLoader" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DPSMainCalc" />
+        <item index="2" class="java.lang.String" itemvalue="Application.weaponslotwindow" />
+        <item index="3" class="java.lang.String" itemvalue="Application.calculations" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1522692109908" duration="1831000" />
+      <workItem from="1522694096902" duration="5323000" />
+      <workItem from="1522745140233" duration="4781000" />
+      <workItem from="1522837263650" duration="10543000" />
+      <workItem from="1523000739298" duration="1080000" />
+      <workItem from="1523001855475" duration="850000" />
+      <workItem from="1523002980168" duration="248000" />
+      <workItem from="1523003251205" duration="7493000" />
+      <workItem from="1523099809780" duration="2807000" />
+      <workItem from="1523172269480" duration="7957000" />
+      <workItem from="1523211390952" duration="1059000" />
+      <workItem from="1523212469494" duration="7723000" />
+      <workItem from="1523262709212" duration="10871000" />
+      <workItem from="1523433681540" duration="57000" />
+      <workItem from="1524507243393" duration="370000" />
+      <workItem from="1524508206629" duration="1156000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="65451000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="72" y="349" width="759" height="660" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07495429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49798116" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24942264" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298585" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32444444" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Gui/MainLoader.java</url>
+          <line>564</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="28" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/images/MAINBACKGROUND.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/magepot.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/mageicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/krillstats.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/krill.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/kREEEEEEE.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/KREE.png" />
+    <entry file="file://$PROJECT_DIR$/src/images/BANDOS.png" />
+    <entry file="file://$PROJECT_DIR$/src/Gui/gloveslotwindow.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/dpsoverviewcss.css" />
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/javafx-src.zip!/javafx/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="304" column="25" lean-forward="false" selection-start-line="304" selection-start-column="25" selection-end-line="304" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/ammyslotwindow.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/BANDOS.png" />
+    <entry file="file://$PROJECT_DIR$/src/Gui/zammyDropLogger.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/testclass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/Stopwatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/helmslotwindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/KREE.png" />
+    <entry file="file://$PROJECT_DIR$/src/Gui/HomePage.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/bandosDPSController.java" />
+    <entry file="file://$PROJECT_DIR$/src/Gui/bandosDPS.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/Gui/calculations.java" />
+    <entry file="file://$PROJECT_DIR$/src/Gui/weaponslotwindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/calistocss.css" />
+    <entry file="file://$PROJECT_DIR$/src/Gui/bodyslotwindow.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/HomePageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/ringslotwindowcontroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/bootslotwindow.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/bodyslotwindowcontroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/ammyslotwindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/kbd.ts" />
+    <entry file="file://$PROJECT_DIR$/src/images/BOSSES/CERBERUS/cerberusstats.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/saracss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/chaosele.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/kreeDPS.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/cerberus.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/capeslotwindow.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/capeslotwindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/bootslotwindowcontroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="15" lean-forward="false" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/kbd.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/weaponslotcss.css" />
+    <entry file="file://$PROJECT_DIR$/src/Gui/thermy.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/mole.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/DPSPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="67" column="24" lean-forward="false" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/DPSPage.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/DPSView.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="24" lean-forward="false" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/bandoscss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/DPSMainCalc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#openweaponslot#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#openhelmslot#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#opencapeslot#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#openammyslot#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#openbodyslot#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#legsslot#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#openglovesslot#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#bootslot#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#ringslot#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#openshieldslot#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#resetattackstyleLabelsandimages#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#resetprayerbonusLabelandimages#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#resetdefaultvaluesprayerbonus#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#resetdefaultvalueStyleBonus#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#resetpotionviews#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#gobacktodpspage#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#gotozammydroplogger#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#setstylebonustoaccurate#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#setstylebonustoagro#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#setstylebonustocontrol#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#setstylebonustodefensive#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#pietyprayerbonus#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#rigourprayerbonus#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#auguryprayerbonus#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#rangepot#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#superattack#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#superstr#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#stabstyle#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#slashstyle#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#rangedstyle#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#magestyle#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#crushstyle#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateEffectiveStrength#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateBaseDamage#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateMaxHit#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateEffectiveAttackLevel#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateMaxAttackStabRol#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateMaxAttackSlashRol#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateMaxAttackCrushRol#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateEffectiveDefenceLevel#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateMaxDefenceStabRol#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateMaxDefenceSlashRol#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateMaxDefenceCrushRol#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateAccuracy#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateDPS#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculateDPT#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calcdps#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#getTextfieldvalues#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#updateAttackBonusLabels#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calcBonusTotals#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#updatedpsLabels#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#updateOpacityGear#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#calculatedps#0;class#DPSMainCalc#0" expanded="false" />
+            <element signature="method#updatingdps#0;class#DPSMainCalc#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/overview.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/zammycss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Gui/MainLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+          <folding>
+            <element signature="method#start#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showHomePage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#returntohomepage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showDPSPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showZammyPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showKreePage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showBandosPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showSaraPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showCalistoPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showCerberusPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showChaoselePage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showCorpPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showkbdPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showKqPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showKrakenPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showMolePage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showthermyPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showVenePage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showZulrahPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showVorkyPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#showZammyDropLoggerPage#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#openweaponslotview#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#openshieldslotview#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#openammyslotview#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#openbodyslotwindow#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#openlegsslotwindow#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#openbootslotwindow#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#openringslotwindow#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#openglovesslotwindow#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#openhelmslotwindow#0;class#MainLoader#0" expanded="false" />
+            <element signature="method#opencapeslotwindow#0;class#MainLoader#0" expanded="false" />
+            <element signature="e#17408#17409#0" expanded="true" />
+            <element signature="e#17427#17428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>teest:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>teest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

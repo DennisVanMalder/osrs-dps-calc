@@ -1,0 +1,24 @@
+.button:hover{
+    -fx-opacity: 0.5;
+}
+
+#backgroundpane{
+    -fx-background-image: url('/images/BOSSES/THERMY/thermybackground.png');
+    -fx-background-size: cover;
+}
+
+#monstericonpane{
+    -fx-background-image: url('/images/BOSSES/THERMY/thermyicon.png');
+    -fx-background-size:100%;
+    -fx-background-repeat: no-repeat;
+
+}
+#statspane{
+    -fx-background-image: url('/images/BOSSES/THERMY/thermystats.png');
+    -fx-background-size:100%;
+    -fx-background-repeat: no-repeat;
+}
+
+.label{
+    -fx-text-fill: silver;
+}

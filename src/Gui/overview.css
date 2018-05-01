@@ -1,0 +1,295 @@
+#zammybutton{
+
+    -fx-background-image: url('/images/BOSSES/ZAMMY/krillicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#zammybutton:hover{
+
+    -fx-background-image: url('/images/BOSSES/ZAMMY/krillicon.png');
+    -fx-opacity: 1;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#gotodpskreebutton{
+    -fx-background-image: url('/images/BOSSES/KREE/kREEEEEEE.png');
+    -fx-opacity: 0.5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#gotobandosdpsbutton{
+    -fx-background-image: url('/images/BOSSES/BANDOS/bandosicon.png');
+    -fx-opacity: 0.5;
+    -fx-background-size: 90%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#gotosaradpsbutton{
+    -fx-background-image: url('/images/BOSSES/SARADOMIN/saradominicon.png');
+    -fx-opacity: 0.5;
+    -fx-background-size: 60%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 70%;
+    -fx-background-color: transparent;
+}
+
+
+#gotodpskreebutton:hover{
+    -fx-background-image: url('/images/BOSSES/KREE/kREEEEEEE.png');
+    -fx-opacity: 0.5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#gotobandosdpsbutton:hover{
+    -fx-background-image: url('/images/BOSSES/BANDOS/bandosicon.png');
+    -fx-opacity: 1;
+    -fx-background-size: 90%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#gotosaradpsbutton:hover{
+    -fx-background-image: url('/images/BOSSES/SARADOMIN/saradominicon.png');
+    -fx-opacity: 1;
+    -fx-background-size: 60%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 70%;
+    -fx-background-color: transparent;
+}
+
+
+#kbddpsbutton{
+    -fx-background-image: url('/images/BOSSES/KBD/kbdicon.png');
+    -fx-opacity: 0.5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#kbddpsbutton:hover{
+    -fx-background-image: url('/images/BOSSES/KBD/kbdicon.png');
+    -fx-opacity: 1;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#callisto{
+    -fx-background-image: url('/images/BOSSES/CALLISTO/callistoicon.png');
+    -fx-opacity: 0.5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+#callisto:hover{
+    -fx-background-image: url('/images/BOSSES/CALLISTO/callistoicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#cerberus{
+    -fx-background-image: url('/images/BOSSES/CERBERUS/cerberusicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+#cerberus:hover{
+    -fx-background-image: url('/images/BOSSES/CERBERUS/cerberusicon.png');
+    -fx-opacity: 1;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+#chaosele{
+    -fx-background-image: url('/images/BOSSES/CHAOSELE/chaoseleicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+#chaosele:hover{
+    -fx-background-image: url('/images/BOSSES/CHAOSELE/chaoseleicon.png');
+    -fx-opacity: 1;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#corp{
+    -fx-background-image: url('/images/BOSSES/CORP/corpiconosrs.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+#corp:hover{
+    -fx-background-image: url('/images/BOSSES/CORP/corpiconosrs.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#kq{
+    -fx-background-image: url('/images/BOSSES/KQ/kqiconosrs.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#kq:hover{
+    -fx-background-image: url('/images/BOSSES/KQ/kqiconosrs.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#kraken{
+    -fx-background-image: url('/images/BOSSES/KRAKEN/krakenicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+#kraken:hover{
+    -fx-background-image: url('/images/BOSSES/KRAKEN/krakenicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#thermy{
+    -fx-background-image: url('/images/BOSSES/THERMY/thermyicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 80%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#thermy:hover{
+    -fx-background-image: url('/images/BOSSES/THERMY/thermyicon.png');
+    -fx-opacity: 1;
+    -fx-background-size: 80%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+#zulrah{
+    -fx-background-image: url('/images/BOSSES/ZULRAH/zulrahicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+#zulrah:hover{
+    -fx-background-image: url('/images/BOSSES/ZULRAH/zulrahicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#vorkath{
+    -fx-background-image: url('/images/BOSSES/VORKATH/vorkyicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+#vorkath:hover{
+    -fx-background-image: url('/images/BOSSES/VORKATH/vorkyicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#mole{
+    -fx-background-image: url('/images/BOSSES/MOLE/giantmoleicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+#mole:hover{
+    -fx-background-image: url('/images/BOSSES/MOLE/giantmoleicon.png');
+    -fx-opacity: 1;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+#vene{
+    -fx-background-image: url('/images/BOSSES/VENENATIS/venenatisicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+#vene:hover{
+    -fx-background-image: url('/images/BOSSES/VENENATIS/venenatisicon.png');
+    -fx-opacity: .5;
+    -fx-background-size: 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 90%;
+    -fx-background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

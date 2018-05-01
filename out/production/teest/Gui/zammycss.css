@@ -1,0 +1,33 @@
+.button:hover{
+    -fx-opacity: 0.5;
+}
+
+#backgroundpane{
+    -fx-background-image: url('/images/BOSSES/ZAMMY/krillbackground.png');
+    -fx-background-size: cover;
+}
+
+#monstericonpane{
+    -fx-background-image: url('/images/BOSSES/ZAMMY/krillicon.png');
+    -fx-background-size: cover;
+}
+#statspane{
+    -fx-background-image: url('/images/BOSSES/ZAMMY/krillstats.png');
+    -fx-background-size: cover;
+}
+
+#accurateattackstylebutton:hover{
+
+      -fx-background-color: transparent;
+
+  }
+
+#accurateattackstylebutton{
+
+    -fx-background-color: transparent;
+    -fx-opacity: 0.0;
+}
+.label{
+    -fx-text-fill: black;
+}
+

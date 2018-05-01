@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Gui.DPSMainCalc">
+   <center>
+      <Pane fx:id="backgroundpane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <TextField layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="190.0" promptText="username..." style="-fx-background-color: transparent;" />
+            <GridPane layoutX="40.0" layoutY="337.0" prefHeight="122.0" prefWidth="290.0" style="-fx-border-color: white;">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.0" minWidth="10.0" prefWidth="86.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="229.0" minWidth="10.0" prefWidth="202.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Max Hit" textFill="WHITE" />
+                  <Label text="DPS" textFill="WHITE" GridPane.rowIndex="2" />
+                  <Label fx:id="MaxHitLabel" text="MAXHITVALUE" textFill="WHITE" GridPane.columnIndex="1" />
+                  <Label fx:id="DPSLabel" text="DPSVALUE" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Label text="Accuracy" textFill="WHITE" GridPane.rowIndex="1" />
+                  <Label fx:id="AccuracyLabel" text="ACCURACYVALUE" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label text="DPT" textFill="WHITE" GridPane.rowIndex="3" />
+                  <Label fx:id="DPTLabel" text="DAMAGEPERTICKVALUE" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+               </children>
+               <effect>
+                  <Bloom threshold="0.02">
+                     <input>
+                        <DropShadow color="#eeeeee" height="78.92" radius="38.565" spread="0.26" width="77.34" />
+                     </input>
+                  </Bloom>
+               </effect>
+            </GridPane>
+            <Button fx:id="gobacktodpsButton" layoutX="718.0" layoutY="465.0" mnemonicParsing="false" onAction="#gobacktodpspage" prefHeight="21.0" prefWidth="64.0" text="GoBack" />
+            <Button fx:id="gotozammydroploggerbutton" layoutX="584.0" layoutY="464.0" mnemonicParsing="false" onAction="#gotozammydroplogger" prefHeight="26.0" prefWidth="123.0" text="gotodroplogger" />
+            <Button fx:id="calculatedpsbutton" layoutX="375.0" layoutY="435.0" mnemonicParsing="false" onAction="#calculatedps" prefHeight="42.0" prefWidth="188.0" text="calc dps" />
+            <ImageView fitHeight="94.0" fitWidth="167.0" layoutX="393.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/attackoptions.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="superattackimage" fitHeight="40.0" fitWidth="35.0" layoutX="464.0" layoutY="308.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/superattack.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="superstrimageView" fitHeight="40.0" fitWidth="35.0" layoutX="526.0" layoutY="308.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/superstr.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="rangedpotimage" fitHeight="40.0" fitWidth="35.0" layoutX="400.0" layoutY="308.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/rangepot.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="166.0" fitWidth="179.0" layoutX="390.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/armourlayout.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="272.0" fitWidth="212.0" layoutX="95.0" layoutY="10.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/bonuslayout.png" />
+               </image>
+            </ImageView>
+            <Button id="accurateattackstylebutton" fx:id="accurateattackstylebutton" layoutX="388.0" layoutY="27.0" mnemonicParsing="false" onAction="#setstylebonustoaccurate" prefHeight="43.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="agrostylebutton" layoutX="469.0" layoutY="27.0" mnemonicParsing="false" onAction="#setstylebonustoagro" prefHeight="41.0" prefWidth="75.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="controlledstylebutton" layoutX="388.0" layoutY="78.0" mnemonicParsing="false" onAction="#setstylebonustocontrol" prefHeight="42.0" prefWidth="72.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="defstylebutton" layoutX="469.0" layoutY="78.0" mnemonicParsing="false" onAction="#setstylebonustodefensive" prefHeight="41.0" prefWidth="75.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <ImageView fx:id="accurateStyleImageView" disable="true" fitHeight="50.0" fitWidth="73.0" layoutX="392.0" layoutY="25.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/dpspagecssimages/accuratestyle.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="agroStyleImageView" disable="true" fitHeight="48.0" fitWidth="90.0" layoutX="468.0" layoutY="23.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/agrostylepic.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="controlStyleImageView" disable="true" fitHeight="45.0" fitWidth="73.0" layoutX="390.0" layoutY="77.0" opacity="0.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/controlledstyle.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="defStyleImageView" disable="true" fitHeight="48.0" fitWidth="76.0" layoutX="469.0" layoutY="76.0" opacity="0.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/defensivestyle.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="177.0" layoutX="160.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/prayerset.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="pietyimageview" fitHeight="54.0" fitWidth="56.0" layoutX="153.0" layoutY="271.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/activatedpiety.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="rigourimageview" fitHeight="52.0" fitWidth="53.0" layoutX="203.0" layoutY="276.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/activatedrigour.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="auguryimageview" fitHeight="55.0" fitWidth="58.0" layoutX="246.0" layoutY="272.0" opacity="0.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/activatedaugury.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="pietybutton" layoutX="159.0" layoutY="282.0" mnemonicParsing="false" onAction="#pietyprayerbonus" prefHeight="30.0" prefWidth="46.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="rigourbutton" layoutX="206.0" layoutY="282.0" mnemonicParsing="false" onAction="#rigourprayerbonus" prefHeight="31.0" prefWidth="46.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="augurybutton" layoutX="252.0" layoutY="281.0" mnemonicParsing="false" onAction="#auguryprayerbonus" prefHeight="32.0" prefWidth="46.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <ImageView fitHeight="181.0" fitWidth="43.0" layoutX="9.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/staticons.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="49.0" layoutY="54.0" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: transparent;" text="99">
+               <effect>
+                  <DropShadow color="WHITE" height="50.65" radius="20.377499999999998" spread="0.88" width="32.86" />
+               </effect>
+            </TextField>
+            <TextField fx:id="attackLevelTextfield" layoutX="49.0" layoutY="89.0" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: transparent;" text="99">
+               <effect>
+                  <DropShadow color="WHITE" height="50.65" radius="20.377499999999998" spread="0.88" width="32.86" />
+               </effect>
+            </TextField>
+            <TextField fx:id="strleveltf" layoutX="49.0" layoutY="124.0" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: transparent;" text="99">
+               <effect>
+                  <DropShadow color="WHITE" height="50.65" radius="20.377499999999998" spread="0.88" width="32.86" />
+               </effect>
+            </TextField>
+            <TextField layoutX="49.0" layoutY="161.0" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: transparent;" text="99">
+               <effect>
+                  <DropShadow color="WHITE" height="50.65" radius="20.377499999999998" spread="0.88" width="32.86" />
+               </effect>
+            </TextField>
+            <TextField layoutX="49.0" layoutY="202.0" prefHeight="30.0" prefWidth="30.0" style="-fx-background-color: transparent;" text="99">
+               <effect>
+                  <DropShadow color="WHITE" height="50.65" radius="20.377499999999998" spread="0.88" width="32.86" />
+               </effect>
+            </TextField>
+            <Button fx:id="rangepotbutton" layoutX="398.0" layoutY="308.0" mnemonicParsing="false" onAction="#rangepot" prefHeight="41.0" prefWidth="32.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="superattackbutton" layoutX="462.0" layoutY="308.0" mnemonicParsing="false" onAction="#superattack" prefHeight="41.0" prefWidth="32.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="superstrbutton" layoutX="524.0" layoutY="308.0" mnemonicParsing="false" onAction="#superstr" prefHeight="41.0" prefWidth="32.0" style="-fx-background-color: transparent;" />
+            <GridPane layoutX="300.0" layoutY="40.0" prefHeight="249.0" prefWidth="82.0">
+              <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView fx:id="slashimageview" fitHeight="53.0" fitWidth="82.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+                     <image>
+                        <Image url="@../images/slashicon.png" />
+                     </image>
+                     <effect>
+                        <Glow level="0.7" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fx:id="stabimageview" fitHeight="71.0" fitWidth="41.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/stabstyle.png" />
+                     </image>
+                     <effect>
+                        <Glow level="0.7" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fx:id="crushimageview" fitHeight="63.0" fitWidth="40.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+                     <image>
+                        <Image url="@../images/crushstyle.png" />
+                     </image>
+                     <effect>
+                        <Glow level="0.7" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fx:id="rangedimageview" fitHeight="93.0" fitWidth="51.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+                     <image>
+                        <Image url="@../images/rangedicon.png" />
+                     </image>
+                     <effect>
+                        <Glow level="0.7" />
+                     </effect>
+                  </ImageView>
+                  <ImageView fx:id="mageimageview" fitHeight="69.0" fitWidth="38.0" opacity="0.5" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+                     <image>
+                        <Image url="@../images/mageicon.png" />
+                     </image>
+                     <effect>
+                        <Glow level="0.7" />
+                     </effect>
+                  </ImageView>
+                  <Button fx:id="stabstylebutton" mnemonicParsing="false" onAction="#stabstyle" prefHeight="43.0" prefWidth="70.0" style="-fx-background-color: transparent;">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="slashstylebutton" mnemonicParsing="false" onAction="#slashstyle" prefHeight="42.0" prefWidth="73.0" style="-fx-background-color: transparent;" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="rangedstylebutton" mnemonicParsing="false" onAction="#rangedstyle" prefHeight="43.0" prefWidth="70.0" style="-fx-background-color: transparent;" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="magestylebutton" mnemonicParsing="false" onAction="#magestyle" prefHeight="43.0" prefWidth="70.0" style="-fx-background-color: transparent;" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button fx:id="crushstylebutton" mnemonicParsing="false" onAction="#crushstyle" prefHeight="43.0" prefWidth="70.0" style="-fx-background-color: transparent;" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+               </children>
+               <effect>
+                  <Glow />
+               </effect>
+            </GridPane>
+            <Label fx:id="atkStabBonusLabel" layoutX="176.0" layoutY="31.0" prefHeight="22.0" prefWidth="87.0" text="0" textFill="#ff6a00">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font></Label>
+            <Label fx:id="atkSlashBonusLabel" layoutX="180.0" layoutY="49.0" prefHeight="22.0" prefWidth="87.0" text="0" textFill="#ff6a00">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="atkCrushBonusLabel" layoutX="186.0" layoutY="66.0" prefHeight="22.0" prefWidth="87.0" text="0" textFill="#ff6a00">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="atkMagicBonusLabel" layoutX="182.0" layoutY="84.0" prefHeight="22.0" prefWidth="87.0" text="0" textFill="#ff6a00">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="atkStrengthBonusLabel" layoutX="255.0" layoutY="143.0" prefHeight="22.0" prefWidth="87.0" text="0" textFill="#ff6a00">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="atkRanedBonusLabel" layoutX="187.0" layoutY="103.0" prefHeight="22.0" prefWidth="87.0" text="0" textFill="#ff6a00">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="weaponslotbutton" layoutX="404.0" layoutY="196.0" mnemonicParsing="false" onAction="#openweaponslot" prefHeight="29.0" prefWidth="30.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor></Button>
+            <Button fx:id="helmslotbutton" layoutX="450.0" layoutY="132.0" mnemonicParsing="false" onAction="#openhelmslot" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="capeslotbutton" layoutX="418.0" layoutY="166.0" mnemonicParsing="false" onAction="#opencapeslot" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="ammyslotbutton" layoutX="451.0" layoutY="166.0" mnemonicParsing="false" onAction="#openammyslot" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="bodyslotbutton" layoutX="451.0" layoutY="197.0" mnemonicParsing="false" onAction="#openbodyslot" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="legslotbutton" layoutX="451.0" layoutY="230.0" mnemonicParsing="false" onAction="#legsslot" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="gloveslotbutton" layoutX="404.0" layoutY="262.0" mnemonicParsing="false" onAction="#openglovesslot" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="bootslotbutton" layoutX="451.0" layoutY="262.0" mnemonicParsing="false" onAction="#bootslot" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="ringslotbutton" layoutX="494.0" layoutY="261.0" mnemonicParsing="false" onAction="#ringslot" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="shieldslotbutton" layoutX="495.0" layoutY="196.0" mnemonicParsing="false" onAction="#openshieldslot" prefHeight="28.0" prefWidth="31.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <ImageView fx:id="checkmarkimageweapon" disable="true" fitHeight="28.0" fitWidth="25.0" layoutX="407.0" layoutY="196.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="checkmarkimagehelm" disable="true" fitHeight="28.0" fitWidth="25.0" layoutX="453.0" layoutY="133.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="checkmarkimageammy" disable="true" fitHeight="28.0" fitWidth="25.0" layoutX="453.0" layoutY="167.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="checkmarkimagebody" disable="true" fitHeight="28.0" fitWidth="25.0" layoutX="453.0" layoutY="197.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="checkmarkimagelegs" disable="true" fitHeight="28.0" fitWidth="25.0" layoutX="453.0" layoutY="231.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="checkmarkimageboots" disable="true" fitHeight="28.0" fitWidth="25.0" layoutX="454.0" layoutY="263.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="checkmarkimagegloves" disable="true" fitHeight="28.0" fitWidth="25.0" layoutX="407.0" layoutY="263.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="checkmarkimagering" disable="true" fitHeight="28.0" fitWidth="25.0" layoutX="498.0" layoutY="263.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="checkmarkimageshield" disable="true" fitHeight="28.0" fitWidth="25.0" layoutX="498.0" layoutY="198.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/checkmark.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="checkmarkimagecape" disable="true" fitHeight="28.0" fitWidth="25.0" layoutX="420.0" layoutY="167.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/checkmark.png" />
+               </image>
+            </ImageView>
+            <Pane fx:id="monstericonpane" layoutX="601.0" layoutY="19.0" prefHeight="148.0" prefWidth="164.0" />
+            <Pane fx:id="statspane" layoutX="583.0" layoutY="160.0" prefHeight="277.0" prefWidth="200.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
